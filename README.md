@@ -41,4 +41,4 @@ Direct copy is not recommended, but taking reference to *whisk up* some code of 
 **HW2: 1D Gaussian Filtering with Wrap Condition**
 * Write a kernel function for 1D Gaussian filtering using the wrap-around condition.
 * Also write two additional kernel functions: one using shared memory and the other using a grid-stride loop.
-* Use Nsight Compute to analyze register and shared memory usage, achieved warp occupancy and other metrics relative to thread block dimensions.
+* Use Nsight Compute to analyze register and shared memory usage, achieved warp occupancy and other metrics(L1, L2 cache hit rate, warp state statistics) relative to thread block dimensions.
